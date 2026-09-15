@@ -5,11 +5,7 @@ import sys
 import random
 import threading
 import time
-from scapy.all import IP, TCP, UDP, ICMP, send, raw
-from telebot import types
-
-TOKEN = "8934283888:AAH6ENVmvDPHMG5xIUlhTGpNY5TJYG1QOls"
-ADMIN_CHAT_ID = 8541155076
+from scapy.all import IP, TC
 MAX_PACKETS = 1000000  # Industrial-grade flood volume
 
 bot = telebot.TeleBot(TOKEN)
